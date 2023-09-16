@@ -4,6 +4,7 @@ V = [50, 26, 26]
 
 memo = [[0] * capacidad for _ in range(len(V))]
 
+
 def knapsack(item, cap):
     if cap < 0:
         return (1 << 60) * -1
